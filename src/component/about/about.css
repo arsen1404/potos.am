@@ -1,0 +1,77 @@
+.container{
+    background-image: url(../images/aboutbacground.jpg);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.sizer{
+    width: 80%;
+    display: flex;
+    
+}
+.obshi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width:100%;
+    height: 100vh;
+  
+
+}
+.row{
+    width: 50%;
+}
+.h1-text{
+    display: block;
+    width: 400px; 
+    border-left: 15px solid rgb(255, 197, 60);
+    
+
+}
+.about-h1{
+    font-size: 60px;
+    margin: 20px;
+}
+
+.about-p{
+width: 700px;
+font-size: 25px;
+color: rgb(251, 192, 105);
+}
+
+.about-btn{
+   width: 70%;
+   display: flex;
+   justify-content: center; 
+   margin-top: 50px;
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    color: azure;
+    background-color: rgb(255, 197, 60);
+    border: none;
+}
+button:hover{
+    color: bisque;
+    cursor: pointer;
+    border: 1px solid rgb(213, 171, 4);
+    background-color:rgb(213, 171, 4) ;
+}
+li{
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
